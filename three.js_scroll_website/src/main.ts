@@ -1,14 +1,13 @@
 import './style.css';
 import * as THREE from 'three';
+import { RepeatWrapping } from 'three';
 
 // canvas
-
 const canvas: any = document.querySelector('#webgl');
 
-//シーン
+// シーン
 const scene = new THREE.Scene();
 
-// サイズ
 const sizes = {
   width: innerWidth,
   height: innerHeight,
@@ -33,7 +32,7 @@ const animation = () => {
 
 animation();
 
-// リサイズイベント
+// リサイズ処理
 addEventListener('resize', () => {
   sizes.width = innerWidth;
   sizes.height = innerHeight;
