@@ -3,7 +3,6 @@
    "target": "ES5", // // ECMAScript ターゲットのバージョンを指定
     "module": "ES2015", // ES Modulesとして出力
     "sourceMap": false, // soucemapを出力する
-    "strict": true, // 厳格モード
     "moduleResolution": "node", // node_modules からライブラリを読み込む
     "esModuleInterop": true, // CommonJSモジュールとESモジュール間の相互運用性を,すべてのインポート用に名前空間オブジェクトを作成することで可能に
     "skipLibCheck": true, // 型宣言ファイルの型チェックをスキップする
